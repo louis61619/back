@@ -3,8 +3,8 @@ import Router from 'vue-router'
 import VueRouter from 'vue-router';
 
 //引入文件
-const Product = () => import('../components/info/Product')
-const Series = () => import('../components/info/Series')
+const Product = () => import('../views/product/Product.vue')
+const Series = () => import('../views/series/Series')
 
 
 

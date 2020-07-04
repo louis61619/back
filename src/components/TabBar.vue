@@ -3,8 +3,8 @@
     <div class="scroll-block">
       
       
-      <item v-slot:name @item-click="proClick">商品管理</item>
-      <item v-slot:name @item-click="serClick">系列管理</item>
+      <item v-slot:name path="/product">商品管理</item>
+      <item v-slot:name path="/series">系列管理</item>
       <item></item>
       <item></item>
     </div>
@@ -19,15 +19,7 @@ export default {
   components: {
     Item
   },
-  methods: {
-     proClick() {
-       this.$router.replace('/product')
-     },
-     serClick() {
-       this.$router.replace('/series')
-     }
-      
-  }
+  
   
 }
 </script>
