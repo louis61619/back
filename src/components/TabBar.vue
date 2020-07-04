@@ -5,8 +5,8 @@
       
       <item v-slot:name path="/product">商品管理</item>
       <item v-slot:name path="/series">系列管理</item>
-      <item></item>
-      <item></item>
+      <item v-slot:name path="/employee">員工管理</item>
+      <item v-slot:name path="/member">會員管理</item>
     </div>
     <div class="login-block"></div>
   </div>

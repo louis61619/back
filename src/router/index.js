@@ -5,6 +5,8 @@ import VueRouter from 'vue-router';
 //引入文件
 const Product = () => import('../views/product/Product.vue')
 const Series = () => import('../views/series/Series')
+const Employee = () => import('../views/employee/Employee')
+const Member = () => import('../views/member/Member')
 
 
 
@@ -24,7 +26,16 @@ const routes = [
   {
     path: '/series',
     component: Series
+  },
+  {
+    path: '/employee',
+    component: Employee
+  },
+  {
+    path: '/member',
+    component: Member
   }
+
 
 ]
 
