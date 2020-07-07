@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import VueRouter from 'vue-router';
+import axios from 'axios'
 
 //引入文件
 const Product = () => import('../views/product/Product.vue')
